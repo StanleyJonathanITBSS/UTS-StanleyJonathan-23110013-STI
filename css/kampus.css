@@ -1,0 +1,85 @@
+div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+body{
+    font-family:'Heebo', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height:100vh;
+}
+
+h1{
+    text-align: center;
+}
+.navbar{
+    
+    background-color: #fff;
+}
+.dropdown{
+    background-color: #fff;
+}
+.navbar ul{
+    display: flex;
+    justify-content: right; 
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    color: #000000;
+}
+.navbar a:hover{
+    color: #FF8266;
+}
+
+
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.kampus{
+    text-align:justify;
+    font-size: 20px;
+    margin-left: 550px ;
+    color: #FFF;
+}
+.container2{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 px;
+    height: 500px;
+    margin-top: 60px;
+    color: #FFF;
+}
+.title{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 800;
+}
+.image{
+    width:500px;
+    height:350px;
+    position: absolute;
+    left: 0;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
